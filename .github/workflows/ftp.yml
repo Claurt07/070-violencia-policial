@@ -3,6 +3,8 @@ name: Despliegue
 on:
   push:
     branches: [violencia-policial]
+  pull_request:
+    branches: [ "violencia-policial" ]
 
 jobs:
   build:
